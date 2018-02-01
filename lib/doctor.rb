@@ -1,4 +1,4 @@
-class Artist
+class Doctor
   
   def initialize()
   end
