@@ -7,6 +7,8 @@ class Song
     genre.add_song(self)
   end
   
-  
+  def add_song
+    
+  end
   
 end
