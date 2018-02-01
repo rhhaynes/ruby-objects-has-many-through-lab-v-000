@@ -11,4 +11,8 @@ class Doctor
     appt.doctor = self
   end
   
+  def patients
+    self.appointments.collect{|o| o.patients}
+  end
+  
 end
