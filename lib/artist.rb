@@ -11,4 +11,8 @@ class Artist
     song.add_artist(self)
   end
   
+  def genres
+    self.collect{|o| o.songs.genre}
+  end
+  
 end
