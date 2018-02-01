@@ -10,4 +10,8 @@ class Genre
     @songs << song
   end
   
+  def artists
+    self.collect{|o| o.songs.artist}
+  end
+  
 end
