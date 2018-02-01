@@ -8,8 +8,4 @@ class Song
     genre.add_song(self)
   end
   
-  def add_artist(artist)
-    @artist = artist
-  end
-  
 end
