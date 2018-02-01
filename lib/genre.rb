@@ -1,4 +1,4 @@
-class Artist
+class Genre
   
   def initialize()
   end
